@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getMovies } from '../api/tmdb';
+import { getMovies } from '../api/backend';
 import FeaturedCarousel from '../components/FeaturedCarousel';
 import { Link } from 'react-router-dom';
 // TODO ขั้นที่ 5: import { useEffect } from 'react' และ import { getMovies } from '../api/tmdb'
