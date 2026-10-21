@@ -17,3 +17,4 @@ jobs:
       - run: npm run build                         # เช็กว่า build แบบเดียวกับ Vercel ผ่าน
         env:
           CI: true
+          

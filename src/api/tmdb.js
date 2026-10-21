@@ -52,7 +52,7 @@ export function toMovie(m, genreMap = {}) {
     detail: m.overview || 'ยังไม่มีเรื่องย่อภาษาไทย',
     poster: m.poster_path ? IMG + m.poster_path : null,
   };
-}
+}      
 
 // ตารางแปลงรหัสแนวหนังเป็นชื่อ (โหลดครั้งเดียวต่อการเรียก getNowPlaying)
 async function getGenreMap() {

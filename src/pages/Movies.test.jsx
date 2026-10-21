@@ -58,3 +58,5 @@ test('backend ล่ม ต้องเห็นข้อความ error แ�
   expect(await screen.findByText('Parasite')).toBeInTheDocument();
   expect(getMovies).toHaveBeenCalledTimes(2);
 });
+
+
